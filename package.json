@@ -1,0 +1,18 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "Real Time Chat App With Rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ahmed Sayed",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.7.2"
+  }
+}
